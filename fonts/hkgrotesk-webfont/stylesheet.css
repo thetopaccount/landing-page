@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'hkgrotesk-black';
+    src: url('hkgrotesk-black.woff2') format('woff2'),
+         url('hkgrotesk-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hkgrotesk-bold';
+    src: url('hkgrotesk-bold.woff2') format('woff2'),
+         url('hkgrotesk-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hkgrotesk-bolditalic';
+    src: url('hkgrotesk-bolditalic.woff2') format('woff2'),
+         url('hkgrotesk-bolditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hkgrotesk-extrabold';
+    src: url('hkgrotesk-extrabold.woff2') format('woff2'),
+         url('hkgrotesk-extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hkgrotesk-italic';
+    src: url('hkgrotesk-italic.woff2') format('woff2'),
+         url('hkgrotesk-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hkgrotesk-lightitalic';
+    src: url('hkgrotesk-lightitalic.woff2') format('woff2'),
+         url('hkgrotesk-lightitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hkgrotesk-light';
+    src: url('hkgrotesk-light.woff2') format('woff2'),
+         url('hkgrotesk-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hkgrotesk-medium';
+    src: url('hkgrotesk-medium.woff2') format('woff2'),
+         url('hkgrotesk-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hkgrotesk-mediumitalic';
+    src: url('hkgrotesk-mediumitalic.woff2') format('woff2'),
+         url('hkgrotesk-mediumitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hkgrotesk-regular';
+    src: url('hkgrotesk-regular.woff2') format('woff2'),
+         url('hkgrotesk-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hkgrotesk-semibold';
+    src: url('hkgrotesk-semibold.woff2') format('woff2'),
+         url('hkgrotesk-semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hkgrotesk-semibolditalic';
+    src: url('hkgrotesk-semibolditalic.woff2') format('woff2'),
+         url('hkgrotesk-semibolditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
