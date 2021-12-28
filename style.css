@@ -1,5 +1,6 @@
 * {
 	border: 2px solid red;
+	font-family: hkgrotesk-regular;
 }
 
 body, .mid-section, .quote-section, .top-section-left, .top-section-right, .bottom-section-left {
@@ -20,11 +21,11 @@ body {
 }
 
 .top-section, .mid-section, .bottom-section {
-	padding: 4rem 7.5rem;
+	padding: 4rem 10rem;
 }
 
 .header {
-	padding: 1rem 7.5rem;
+	padding: 2rem 10rem 0px;
 	align-items: center;
 	max-width: 100%;
 }
@@ -56,19 +57,25 @@ body {
 	width: auto;
 }
 
+.top-section {
+	gap: 1rem;
+}
+
 .top-section-left, .top-section-right {
 	width: 50%;
 	justify-content: center;
 }
 
 .top-section-left {
-	align-items: center;
+	align-items: flex-start;
 	gap: 1.5rem;
 	padding-right: 1.5rem;
 }
 
-.top-section-left {
-	align-items: flex-start;
+.top-section-left .top-section-heading {
+	color: #F9FAF8;
+	font-size: 3rem;
+	font-family: hkgrotesk-extrabold;
 }
 
 .top-section-right img {
@@ -77,17 +84,19 @@ body {
 
 .mid-section {
 	align-items: center;
-	gap: 3rem;
+	gap: 4rem;
 }
 
 .mid-section .images-section {
 	display: flex;
 	width: 100%;
 	justify-content: space-evenly;
+	gap: 1rem;
+	color: #1F2937;
 }
 
 .mid-section .images-section figure {
-	flex: 1;
+	flex: 1 2;
 	margin: 0px;
 	max-width: 12rem;
 	display: flex;
@@ -99,26 +108,44 @@ body {
 
 .mid-section .images-section figure img {
 	width: 100%;
+	box-sizing: border-box;
+	border: 0.25rem solid #3882F6;
 	border-radius: 1rem;
 }
 
 .quote-section {
-	gap: 1rem;
-	padding: 2rem 20rem;
+	background-color: #E5E7EB;
+	color: #1F2937;
+	gap: 2rem;
+	padding: 6rem 20rem 5rem;
 }
 
 .quote-section .quote-by {
 	text-align: right;
+	color: #1F2937;
+	font-family: hkgrotesk-bold;
 }
 
 .bottom-section .highlight {
-	padding: 2rem 7.5rem;
+	padding: 4rem 7.5rem;
 	display: flex;
 	width: 100%;
+	background-color: #3882F6;
+	border-radius: 1rem;
 }
 
 .bottom-section-left {
 	width: 80%;
+}
+
+.bottom-section-left .section-title {
+	color: #F9FAF8;
+	font-family: hkgrotesk-bold;
+	font-size: 1.5rem;
+}
+
+.header, .header li a, .top-section, .bottom-section-left .section-subtext, .footer {
+	color: #E5E7EB;
 }
 
 .bottom-section-right {
@@ -135,4 +162,44 @@ body {
 .footer {
 	justify-content: center;
 	padding: 2rem 0px;
+}
+
+.header, .top-section, .footer {
+	background-color: #1F2937;
+}
+
+.mid-section .mid-section-heading {
+	color: #1F2937;
+	font-family: hkgrotesk-extrabold;
+	font-size: 2rem;
+}
+
+.quote-section .quote {
+	font-family: hkgrotesk-lightitalic;
+	font-size: 2rem;
+}
+
+.footer span strong {
+	font-family: hkgrotesk-semibold;
+	color: #F9FAF8;
+}
+
+button.no-border {
+	background-color: #3882F6;
+	color: #F9FAF8;
+	font-family: hkgrotesk-bold;
+	font-size: 1rem;
+	padding: 0.5rem 1rem;
+	border: 0px;
+	border-radius: 0.5rem;
+}
+
+button.border {
+	background-color: #3882F6;
+	color: #F9FAF8;
+	font-family: hkgrotesk-bold;
+	font-size: 1rem;
+	padding: 0.5rem 1rem;
+	border: 2px solid #F9FAF8;
+	border-radius: 0.5rem;
 }
