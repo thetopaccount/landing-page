@@ -179,11 +179,6 @@ body {
 	font-size: 2rem;
 }
 
-.footer span strong {
-	font-family: hkgrotesk-semibold;
-	color: #F9FAF8;
-}
-
 button.no-border {
 	background-color: #3882F6;
 	color: #F9FAF8;
@@ -202,4 +197,10 @@ button.border {
 	padding: 0.5rem 1rem;
 	border: 2px solid #F9FAF8;
 	border-radius: 0.5rem;
+}
+
+.footer span strong a {
+	text-decoration: none;
+	font-family: hkgrotesk-semibold;
+	color: #F9FAF8;
 }
